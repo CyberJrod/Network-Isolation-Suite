@@ -1,0 +1,20 @@
+# Handle line endings automatically for text files
+* text=auto eol=lf
+
+# Explicitly declare text files we want normalized
+*.py text diff=python
+*.ipynb text
+*.md text
+*.txt text
+
+# Binary files (do not diff)
+*.xlsx binary
+*.xls binary
+*.csv binary
+*.png binary
+*.jpg binary
+*.jpeg binary
+*.gif binary
+
+# Jupyter notebooks: use GitHub's notebook diff renderer
+*.ipynb linguist-language=Jupyter Notebook

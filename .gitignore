@@ -1,0 +1,51 @@
+# -------------------------------
+# Python
+# -------------------------------
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+*.egg-info/
+dist/
+build/
+
+# Virtual environments
+.venv/
+env/
+venv/
+ENV/
+
+# -------------------------------
+# Jupyter
+# -------------------------------
+.ipynb_checkpoints/
+.jupyter/
+*.nbconvert.ipynb
+
+# -------------------------------
+# OS / Editor files
+# -------------------------------
+.DS_Store
+Thumbs.db
+desktop.ini
+*.swp
+
+# -------------------------------
+# Logs
+# -------------------------------
+*.log
+
+# -------------------------------
+# Project-specific
+# -------------------------------
+# Scanner results should NOT be versioned
+Scanner/Results/
+
+# Excel/CSV working files
+*.xlsx
+*.csv
+
+# But keep template input files (uncomment if needed)
+#!hosts.xlsx
+#!ports.txt
